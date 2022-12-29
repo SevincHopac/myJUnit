@@ -4,8 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8129a2aa-4f5a-4d3b-b179-06b11c0cbcf6" name="Changes" comment="">
+    <list default="true" id="8129a2aa-4f5a-4d3b-b179-06b11c0cbcf6" name="Changes" comment="21/12/2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day01/_04_RelativeLacotors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_01_JUnitFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_02_BeforeAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_03_BeforeClassAfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_04_Work01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_05_Work02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_06_Assertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/_01_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day03/_02_DropDownReusable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_01_TestBaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_02_AlertsAccept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P06Nice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P10_RadioButtonCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day01/_03_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/_03_Practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +54,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,6 +75,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671648857882</updated>
     </task>
+    <task id="LOCAL-00001" summary="21/12/2022">
+      <created>1671660243087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671660243087</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="21/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="21/12/2022" />
   </component>
 </project>

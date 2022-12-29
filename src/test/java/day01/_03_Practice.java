@@ -35,8 +35,6 @@ public class _03_Practice {
 
         driver.findElement(By.xpath("//input[@title='Ara']")).sendKeys("Nutella", Keys.ENTER);
 
-
-
         // Bulunan sonuc sayisini yazdirin
         WebElement resultText = driver.findElement(By.xpath("//div[@id='result-stats']"));
         String text = resultText.getText();
