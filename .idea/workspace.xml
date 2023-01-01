@@ -4,32 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8129a2aa-4f5a-4d3b-b179-06b11c0cbcf6" name="Changes" comment="21/12/2022">
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01/_04_RelativeLacotors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_01_JUnitFirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_02_BeforeAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_03_BeforeClassAfterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_04_Work01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_05_Work02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day02/_06_Assertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/_01_DropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day03/_02_DropDownReusable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_01_TestBaseDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_02_AlertsAccept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P06Nice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/P10_RadioButtonCheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+    <list default="true" id="8129a2aa-4f5a-4d3b-b179-06b11c0cbcf6" name="Changes" comment="29/12/2022">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/Note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_03_DismissAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_04_PromptAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day04/_05_IFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day05/_01_WindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C03_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C05_Ins_iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C06_Ins_getWindowHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C07_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C07_Shadow_Root.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C08_Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C09_Alert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C10_iframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C10_iframe_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/slackPractice/C11_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01/_03_Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01/_03_Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04/_02_AlertsAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04/_02_AlertsAccept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P06Nice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P06Nice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/P10_RadioButtonCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/mentorPractice/P10_RadioButtonCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671660243087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="29/12/2022">
+      <created>1672341780856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672341780856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="21/12/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="21/12/2022" />
+    <MESSAGE value="29/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/12/2022" />
   </component>
 </project>

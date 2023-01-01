@@ -29,4 +29,16 @@ public abstract class TestBase {
     public void tearDown() throws Exception {
         driver.quit();
     }
+
+    //    MULTIPLE WINDOW
+    public static void switchToWindow(String targetTitle) {
+        String origin = driver.getWindowHandle();
+        for (String handle : driver.getWindowHandles()) {
+            driver.switchTo().window(handle);
+            if (driver.getTitle().equals(targetTitle)) {
+                return;
+            }
+        }
+        driver.switchTo().window(origin);
+    }
 }
