@@ -14,26 +14,26 @@ public class C10_iframe extends TestBase {
     public void test() throws InterruptedException {
 
         //go to web site : https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
-        driver.get("https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/");
+        TestBase.driver.get("https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/");
 
         // ikinci emojiye tıklayın
-        driver.switchTo().frame("emoojis");
-        driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click();
+        TestBase.driver.switchTo().frame("emoojis");
+        TestBase.driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click();
         Thread.sleep(3000);
 
         // ikinci emoji altındaki tüm öğelere tıklayın
 
-        List<WebElement> emoojisElement = driver.findElements(By.xpath("//*[@class='mdl-tabs__panel is-active']//img"));
+        List<WebElement> emoojisElement = TestBase.driver.findElements(By.xpath("//*[@class='mdl-tabs__panel is-active']//img"));
         emoojisElement.stream().forEach(t->t.click());
         Thread.sleep(3000);
 
         // ana iframe'e geri dön
-        driver.switchTo().defaultContent();
+        TestBase.driver.switchTo().defaultContent();
 
         //formu doldurun,(Formu istediğiniz metinlerle doldurun)
         // uygula butonuna tıklayın
 
-        driver.findElement(By.xpath("(//input[@class='mdl-textfield__input'])[1]")).sendKeys(
+        TestBase.driver.findElement(By.xpath("(//input[@class='mdl-textfield__input'])[1]")).sendKeys(
                 "HelloWorld", Keys.TAB,
                 "World", Keys.TAB,
                 "Tree",Keys.TAB,

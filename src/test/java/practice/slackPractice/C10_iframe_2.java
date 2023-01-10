@@ -15,28 +15,28 @@ public class C10_iframe_2 extends TestBase {
     public void test() {
 
         //go to web site : https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
-        driver.get("https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/");
+        TestBase.driver.get("https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/");
 
         // ikinci emojiye tıklayın
-        int size = driver.findElements(By.tagName("iframe")).size();
+        int size = TestBase.driver.findElements(By.tagName("iframe")).size();
         System.out.println("Total iframes : " + size);
 
-        WebElement iframeElement = driver.findElement(By.xpath("//iframe[@id='emoojis']"));
-        driver.switchTo().frame(iframeElement);
-        driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click();
+        WebElement iframeElement = TestBase.driver.findElement(By.xpath("//iframe[@id='emoojis']"));
+        TestBase.driver.switchTo().frame(iframeElement);
+        TestBase.driver.findElement(By.xpath("(//span[@class='mdl-tabs__ripple-container mdl-js-ripple-effect'])[2]")).click();
 
         // ikinci emoji altındaki tüm öğelere tıklayın
-        List<WebElement> elements = driver.findElements(By.xpath("//*[@class='mdl-tabs__panel is-active']//img"));
+        List<WebElement> elements = TestBase.driver.findElements(By.xpath("//*[@class='mdl-tabs__panel is-active']//img"));
         elements.stream().forEach(t->t.click());
 
         // ana iframe'e geri dön
-        driver.switchTo().defaultContent();
+        TestBase.driver.switchTo().defaultContent();
 
         //formu doldurun,(Formu istediğiniz metinlerle doldurun)
         List<String> inputs = new ArrayList<>(Arrays.asList("Hello World!", "Java", "Turkey" ,"Master", "Java ile Hayat Cok Guzel",
                 "İstanbul", "Adam" ,"58" , "34", "63", "63"));
 
-        List<WebElement> forum = driver.findElements(By.xpath("//input[@class='mdl-textfield__input']"));
+        List<WebElement> forum = TestBase.driver.findElements(By.xpath("//input[@class='mdl-textfield__input']"));
 
         for (int i = 0; i < inputs.size(); i++) {
             forum.get(i).sendKeys(inputs.get(i));
@@ -44,7 +44,7 @@ public class C10_iframe_2 extends TestBase {
 
 
         // uygula butonuna tıklayın
-        driver.findElement(By.id("send")).click();
+        TestBase.driver.findElement(By.id("send")).click();
 
     }
 }

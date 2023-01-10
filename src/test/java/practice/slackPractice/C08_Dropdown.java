@@ -14,13 +14,13 @@ public class C08_Dropdown extends TestBase {
     public void test() {
 
         //1-https://rahulshettyacademy.com/AutomationPractice/ adresine gidin
-        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+        TestBase.driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 
         //2-Dropdown Example menüsünün görünür olduğunu doğrulayın.
-        Assert.assertTrue(driver.findElement(By.xpath("//legend[normalize-space()='Dropdown Example']")).isDisplayed());
+        Assert.assertTrue(TestBase.driver.findElement(By.xpath("//legend[normalize-space()='Dropdown Example']")).isDisplayed());
 
         //3-Option3 ü seçin.
-        WebElement dropdown = driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
+        WebElement dropdown = TestBase.driver.findElement(By.xpath("//select[@id='dropdown-class-example']"));
         Select select = new Select(dropdown);
         select.selectByVisibleText("Option3");
 

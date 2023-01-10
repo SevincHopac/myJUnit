@@ -14,10 +14,10 @@ public class C03 extends TestBase {
     public void test() {
 
         //      Navigate to http://tutorialsninja.com/demo/index.php?route=common/home
-        driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
+        TestBase.driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
 
         //      click on Phones & PDAs
-        driver.findElement(By.xpath("//a[normalize-space()='Phones & PDAs']")).click();
+        TestBase.driver.findElement(By.xpath("//a[normalize-space()='Phones & PDAs']")).click();
 
         //      get the brandName of phones
         System.out.println(getBrandNames());
@@ -26,7 +26,7 @@ public class C03 extends TestBase {
         addButtonClickAllElements();
 
         //      click on black total added cart button
-        driver.findElement(By.xpath("//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")).click();
+        TestBase.driver.findElement(By.xpath("//button[@class='btn btn-inverse btn-block btn-lg dropdown-toggle']")).click();
 
 
         //      get the names of list from the cart
@@ -42,7 +42,7 @@ public class C03 extends TestBase {
     }
 
     private List<String> getCartList() {
-        List<WebElement> names = driver.findElements(By.cssSelector("tr>td.text-left>a"));
+        List<WebElement> names = TestBase.driver.findElements(By.cssSelector("tr>td.text-left>a"));  //-----> css selector !!
         List<String> phoneNames = new ArrayList<>();
         names.forEach(t->phoneNames.add(t.getText()));
         Collections.sort(phoneNames);
@@ -50,12 +50,13 @@ public class C03 extends TestBase {
     }
 
     private void addButtonClickAllElements() {
-        List<WebElement> list = driver.findElements(By.xpath("//*[text()='Add to Cart']"));
+        List<WebElement> list = TestBase.driver.findElements(By.xpath("//*[text()='Add to Cart']"));
         list.forEach(t->t.click());
     }
 
     private List<String> getBrandNames() {
-        List<WebElement> brandName = driver.findElements(By.xpath("//h4"));
+
+        List<WebElement> brandName = TestBase.driver.findElements(By.xpath("//h4"));
         List<String> brandNames = new ArrayList<>();
         for (WebElement w: brandName){
             brandNames.add(w.getText());

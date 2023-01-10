@@ -13,8 +13,11 @@ public class _01_TestBaseDemo extends TestBase {
         - Driver -> Sonra
         - ExcelUtil -> Sonra
         - Configuration -> Sonra
+
    - Utilities paketinde Test case'ler yazilmaz.
+
    - Sadece tekrar kullanilabilecek destek siniflari(Support Class) olusturulur.
+
    - Bu support class'lar test case'lerin yazilmasini hizlandirir.
  */
 

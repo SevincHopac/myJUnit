@@ -19,9 +19,13 @@ public class _04_RelativeLacotors {
         driver.get("https://www.diemol.com/selenium-4-demo/relative-locators-demo.html");
 
         //Sayfadaki Berlin WE'ini relative locator ile tıklayalım
+
         WebElement NYCWebElement = driver.findElement(By.xpath("//*[@id='pid3_thumb']"));
+
         WebElement BayAreaWebelement = driver.findElement(By.cssSelector("img[id='pid8_thumb']"));
+
         WebElement BerlinWE = driver.findElement(with(By.tagName("li")).below(NYCWebElement).toLeftOf(BayAreaWebelement));
+
         BerlinWE.click();
     }
 }
