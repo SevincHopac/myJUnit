@@ -38,11 +38,11 @@ public abstract class TestBase {
     }
 
     //    tearDown
-    @After
+/*    @After
     public void tearDown() {
         waitFor(4);
         driver.quit();
-    }
+    }*/
 
 
     public WebElement getWebElByXpath(String locator) {
