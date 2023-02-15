@@ -11,13 +11,13 @@ public class _03_FileExist {
     @Test
     public void isExistTest() {
 
-        String userDIR = System.getProperty("user.dir");
+        String userDIR = System.getProperty("user.dir");     //    C:\Users\sevin\IdeaProjects\Maven_JUnit
         System.out.println("userDIR = " + userDIR);
 
-        String userHome = System.getProperty("user.home");
+        String userHome = System.getProperty("user.home");       //  C:\Users\sevin
         System.out.println("userHome = " + userHome);
 
-        String filePath = userHome+"\\OneDrive\\Desktop\\logo.jpeg";
+        String filePath = userHome+"\\OneDrive\\Desktop\\logo (1).jpeg";   //"C:\Users\sevin\OneDrive\Desktop\logo (1).jpeg"
         System.out.println("filePath = " + filePath);
 
         boolean isExist = Files.exists(Paths.get(filePath));

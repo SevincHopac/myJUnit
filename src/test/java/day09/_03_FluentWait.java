@@ -17,22 +17,29 @@ public class _03_FluentWait extends TestBase {
     @Test
     public void fluentWaitTest() {
 
-        //https://the-internet.herokuapp.com/dynamic_loading/1
+        //        https://the-internet.herokuapp.com/dynamic_loading/1
         driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 
-        //Start buttonuna tıkla
+//        Start buttonuna tıkla
+
         driver.findElement(By.xpath("//div[@id='start']//button")).click();
 
-        //Hello World! Yazının sitede oldugunu test et
+//        Hello World! Yazının sitede oldugunu test et
+
+
+//        1. Fluent Wait icin bir obje olustur.EXPLICIT WAITTEN FARKI BU KISIM.
 
         Wait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(30))      // Max wait time
-                .pollingEvery(Duration.ofSeconds(3))      // deneme araliklari
-                .withMessage("IGNORE EXCEPTION")
-                .ignoring(NoSuchMethodException.class);
+                .withTimeout(Duration.ofSeconds(30))//MAX BEKLEME SURESI
+                .pollingEvery(Duration.ofSeconds(3))//DENEME ARALIKLARI
+                .withMessage("IGNORE EXCEPTION") //MESAJ YAZDIRABILIRIM.ZORUNLU DEIL
+                .ignoring(NoSuchMethodException.class); //EXCEPTION'I HANDLE ET.ZORLU DEGIL.
 
 
 
+
+
+//       2. wait objesini kullanarak bekleme problemini coz.
         WebElement helloWorldElement=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='finish']//h4")));
         String helloWorldText = helloWorldElement.getText();
         Assert.assertEquals("Hello World!",helloWorldText);

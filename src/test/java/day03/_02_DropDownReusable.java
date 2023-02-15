@@ -45,9 +45,9 @@ public class _02_DropDownReusable {
 
     @Test
     public void selectFromDropdown() {
-        selectFromDropdown(driver.findElement(By.xpath("//select[@id='year']")), "2005");//2005 i secti
-        selectFromDropdown(driver.findElement(By.xpath("//select[@id='month']")),"November");
-        selectFromDropdown(driver.findElement(By.xpath("//select[@id='day']")),"10");
-        selectFromDropdown(driver.findElement(By.xpath("//select[@id='state']")),"Texas");
+        selectFromDropdown(driver.findElement(By.xpath("//select[@id='year']")), "2005");
+        selectFromDropdown(driver.findElement(By.xpath("//select[@id='month']")), "November");
+        selectFromDropdown(driver.findElement(By.xpath("//select[@id='day']")), "10");
+        selectFromDropdown(driver.findElement(By.xpath("//select[@id='state']")), "Texas");
     }
 }

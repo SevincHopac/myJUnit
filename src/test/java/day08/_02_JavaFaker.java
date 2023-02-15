@@ -2,7 +2,6 @@ package day08;
 
 import com.github.javafaker.Faker;
 import org.junit.Test;
-import utilities.TestBase;
 
 public class _02_JavaFaker {
 
@@ -37,7 +36,9 @@ public class _02_JavaFaker {
 
  /*
               TEST DATA : kullanici adi, sifre, tel no, e-mail, sehir, kredi kart no,...
+
               Test datalari kimden alinir?
+
               1- BA-Business Analyst (Acceptance Criteria'lari yazar)
               2- Test Lead
               3- Manual Tester
@@ -47,6 +48,7 @@ public class _02_JavaFaker {
               7- API call'lar
               8- Documentations. Ornegin, API swagger dokumani.
               9- Java Faker da fake data almak icin kullaniyoruz.
+
               NERDEN GELMEZ : end-user  alinmaz, scrum master,..
  */
     }

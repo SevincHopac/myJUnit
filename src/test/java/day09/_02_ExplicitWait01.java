@@ -12,28 +12,30 @@ import java.time.Duration;
 
 public class _02_ExplicitWait01 extends TestBase {
 
+    /*
+     https://the-internet.herokuapp.com/dynamic_loading/1
+     Start buttonuna tıkla
+     Hello World! Yazının sitede oldugunu test et
+      */
     @Test
-    public void explicitWait() {
-
-        //https://the-internet.herokuapp.com/dynamic_loading/1
+    public void explicitWaitTest() {
         driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 
-        //Start buttonuna tıkla
+//        Start buttonuna tıkla
         driver.findElement(By.xpath("//div[@id='start']//button")).click();
 
-  /*      //Hello World! Yazının sitede oldugunu test et
-        WebElement element = driver.findElement(By.xpath("//div[@id='finish']//h4"));
-        Assert.assertEquals("Hello World!",element.getText());*/
-        // Implicitwait doesnt work
+//        WebElement helloWorldElement = driver.findElement(By.xpath("//div[@id='finish']//h4"));
+//        Assert.assertEquals("Hello World!",helloWorldElement.getText());
+//        IMPLICIT WAIT ILE TEST CASE CALISMADI.
+//        COZUM EXPLICIT WAITDE
 
-
-
-        //        1. WebDriverWait objesini olustur
+//        1. WebDriverWait objesini olustur
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-//        2. wait objesini kullanarak bekleme problemini cozmeye calis
-        WebElement helloWorldElement=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='finish']//h4")));
-        String helloWorldText = helloWorldElement.getText();
-        Assert.assertEquals("Hello World!",helloWorldText);
 
+//        2. wait objesini kullanarak bekleme problemini cozmeye calis
+        WebElement helloWorldElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='finish']//h4")));
+        String helloWorldText = helloWorldElement.getText();
+        Assert.assertEquals("Hello World!", helloWorldText);
     }
+
 }

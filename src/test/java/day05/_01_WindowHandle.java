@@ -1,10 +1,13 @@
 package day05;
 
+import com.mongodb.client.model.geojson.LineString;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import utilities.TestBase;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class _01_WindowHandle extends TestBase {
@@ -31,6 +34,8 @@ public class _01_WindowHandle extends TestBase {
         //Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
 
         Set<String> allWindowaHandles = driver.getWindowHandles();
+       // List<String> allWindowaHandles = new ArrayList<>(driver.getWindowHandles());
+
         for (String w: allWindowaHandles){
             if (!w.equals(windowHandle1)) {
                 driver.switchTo().window(w);
@@ -47,5 +52,7 @@ public class _01_WindowHandle extends TestBase {
         //Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Internet” olduğunu  doğrulayın
         driver.switchTo().window(windowHandle1);
         Assert.assertEquals("The Internet",driver.getTitle());
+
+
     }
 }

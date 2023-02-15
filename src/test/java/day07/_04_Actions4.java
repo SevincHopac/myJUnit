@@ -66,6 +66,5 @@ public class _04_Actions4 extends TestBase {
                 release().
                 build().
                 perform();
-
     }
 }

@@ -16,6 +16,7 @@ public class _04_Cookies extends TestBase {
         waitFor(3);
 
         //1.toplam cookie sayisini bul
+
         Set<Cookie> allCookies = driver.manage().getCookies();
         int numberOfCookies = allCookies.size();
         System.out.println("numberOfCookies = " + numberOfCookies);
@@ -30,6 +31,7 @@ public class _04_Cookies extends TestBase {
             System.out.println("Cookie : " +eachCookie);
             System.out.println("Cookie's Name : " + eachCookie.getName());
         }
+
 
         //4. Yeni bir cookie ekle
         Cookie favCookie = new Cookie("myChocolate","Bitter");

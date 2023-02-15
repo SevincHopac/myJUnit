@@ -30,7 +30,8 @@ public class _06_Assertion {
     }
     /*
 
-    2)https://amazon.com adresinegidin
+    2)https://amazon.com adresine gidin
+
     3)Aşağıdaki adları kullanarak 3 test metodu oluşturun ve gerekli testleriyapin
             ○ title Test  => Sayfa başlığının “Amazon” oldugunu test edin
             ○ image Test => Amazon resminin görüntülendiğini (isDisplayed()) test edin

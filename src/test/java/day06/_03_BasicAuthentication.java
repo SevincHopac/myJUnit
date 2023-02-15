@@ -14,7 +14,7 @@ public class _03_BasicAuthentication extends TestBase {
         //asagidaki yontem ve test datalarini kullanarak authentication'i yapin
 
 
-        //URL              : https://username:password@URL
+        //URL         : https://username:password@URL
         //Username    : admin
         //password    : admin
         //Basarili sekilde sayfaya girin ve 'Congratulations!' yasizini doğrulayın

@@ -24,6 +24,7 @@ public class _02_Actions2 extends TestBase {
         Actions actions = new Actions(driver);
         WebElement element = driver.findElement(By.id("nav-link-accountList"));
         actions.moveToElement(element).perform();
+
         driver.findElement(By.xpath("(//*[@class='nav-link nav-item'])[4]")).click();
         String text = driver.findElement(By.xpath("//*[@class='a-row a-spacing-base']")).getText();
         Assert.assertEquals("Your Account",text);

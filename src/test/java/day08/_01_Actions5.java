@@ -12,16 +12,20 @@ public class _01_Actions5 extends TestBase {
     @Test
     public void keyboardActions() {
 
-        //Google a gidin https://www.google.com
-        driver.get("https://www.google.com");
+      //  driver.get("https://www.google.com");
 
-        driver.findElement(By.xpath("//*[text()='Tümünü kabul et']")).click();
+      //  driver.findElement(By.xpath("//*[text()='Accept all']")).click();
 
         //‘iPhone X fiyatlari’ yazdir (SHIFT TUSUNA BASILARAK)
         //‘ cok pahali!’ Yazdır (SHIFT TUSUNA BASILMAYARAK)
         //Ve ENTER tusuna bas
 
-        WebElement searchBox = driver.findElement(By.name("q"));
+        //       WebElement searchBox = driver.findElement(By.name("q"));
+
+
+        driver.get("https://amazon.com");
+
+        WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
         Actions actions = new Actions(driver);
 
         actions.
