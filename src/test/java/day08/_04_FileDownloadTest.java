@@ -25,7 +25,6 @@ public class _04_FileDownloadTest extends TestBase {
         //Dosyanın başarıyla indirilip indirilmediğini test edelim
         String filePath = "D:\\Yedek indirilenler\\b10 all test cases, code.docx";
 
-        System.out.println(filePath);
         boolean isDownload = Files.exists(Paths.get(filePath));
         Assert.assertTrue(isDownload);
     }
